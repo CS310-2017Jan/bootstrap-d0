@@ -1,0 +1,42 @@
+{
+  "name": "d0-bootstrap",
+  "description": "CPSC 310 D0 Bootstrap",
+  "homepage": "https://github.com/ubccpsc/310",
+  "author": "",
+  "contributors": "N/A",
+  "license": "GPL-3.0",
+  "repository": "N/A",
+  "bugs": "",
+  "keywords": [],
+  "version": "0.0.1",
+  "devDependencies": {
+    "joi": "^10.0.6"
+  },
+  "scripts": {
+    "clean": "rm -rf ./node_modules/",
+    "cleanwin": "rmdir node_modules /s /q & exit 0",
+    "configure": "yarn install; npm install istanbul",
+    "configurewin": "yarn install",
+    "build": "tsc",
+    "test": "mocha -c -R mochawesome",
+    "cover": "istanbul cover _mocha",
+    "coverwin": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/core-js": "^0.9.35",
+    "@types/jszip": "0.0.31",
+    "@types/mocha": "^2.2.33",
+    "@types/node": "^6.0.52",
+    "@types/parse5": "^2.2.34",
+    "@types/request-promise-native": "^1.0.2",
+    "@types/restify": "^2.0.35",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mochawesome": "^1.5.2",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
+    "typescript": "^2.1.X"
+  }
+}
