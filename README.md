@@ -10,7 +10,7 @@ To start using this project, you need to get your computer configured so you can
 
 1. Install git (you should be able to execute ```git -v``` on the command line).
 
-1. Install Node, which will also install YARN (you should be able to execute ```node -v``` and ```yarn -v``` the command line).
+1. Install Node, which will also install YARN (you should be able to execute ```node -v``` and ```yarn -V``` the command line).
 
 1. Clone the project: ```git clone git@github.com:CS310-2017Jan/cpsc310-d0_XXX.git``` (where ```XXX``` is your github id). You can also clone the repo by visiting your project in Github and getting the clone target by clicking on the green button on your project repository.
 
