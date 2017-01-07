@@ -8,7 +8,6 @@
     "sourceMap": true
   },
   "filesGlob": [
-    "/typings/index.d.ts",
     "/src/**/*.ts",
     "/test/**/*.ts"
   ],

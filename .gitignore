@@ -43,3 +43,5 @@ src/**/*.map
 test/*.js
 test/*.map
 npm-debug.log
+
+mochawesome-reports/
