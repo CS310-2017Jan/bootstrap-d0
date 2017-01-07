@@ -10,9 +10,11 @@ To start using this project, you need to get your computer configured so you can
 
 1. Install git (you should be able to execute ```git -v``` on the command line).
 
-1. Install Node, which will also install YARN (you should be able to execute ```node -v``` and ```yarn -V``` the command line).
+1. Install Node, which will also install NPM (you should be able to execute ```node -v``` and ```npm -v``` the command line).
 
-1. Clone the project: ```git clone git@github.com:CS310-2017Jan/cpsc310-d0_XXX.git``` (where ```XXX``` is your github id). You can also clone the repo by visiting your project in Github and getting the clone target by clicking on the green button on your project repository.
+1. Install Yarn using NPM (```sudo npm install -g yarn``` on OS X / Linux). You should be able to execute ```yarn -V``` afterwards.
+
+1. Clone the project: ```git clone git@github.com:CS310-2017Jan/cpsc310-d0_XXX.git``` (where ```XXX``` is your GitHub id). You can also clone the repo by visiting your project in GitHub and getting the clone target by clicking on the green button on your project repository.
 
 ## Project commands
 
@@ -41,15 +43,13 @@ The sample project ships with some automated unit tests. These commands will exe
 
 You can also run the tests as a Mocha target inside your favourite IDE (WebStorm and VSCode both work well and are free for academic use); some students are also using Atom and Cloud9 (although this will require a bit of fiddling since it runs in the cloud).
 
-
 ### Executing the private test suite
 
-To invoke the private suite, add a ```@CPSC310Bot``` mention to any commit in your main branch in Github. Remember: these are rate limited so choose your commits wisely. Additional details can be found in the AutoTest documentation.
-
+To invoke the private suite, add a ```@CPSC310Bot``` mention to any commit in your main branch in GitHub. Remember: these are rate limited so choose your commits wisely. Additional details can be found in the AutoTest documentation.
 
 ## Developing your deliverable
 
-If you are developing in Typescript you will have to re-compile the Typescript code. This can be done with ```yarn run build``` to build the system and get it ready to execute. New unit tests can be written and added to ```/test```; as long as the tests end in ```Spec.ts``` they will be executed automatically when you run ```yarn run test```.
+You will have to re-compile the TypeScript code after any edit. This can be done with ```yarn run build``` to build the system and get it ready to execute. New unit tests can be written and added to ```/test```. As long as the tests end in ```Spec.ts``` they will be executed automatically when you run ```yarn run test```.
 
 ### Running and testing from an IDE
 
