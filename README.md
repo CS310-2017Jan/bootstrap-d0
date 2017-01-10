@@ -14,7 +14,7 @@ To start using this project, you need to get your computer configured so you can
 
 1. Install Yarn using NPM (```sudo npm install -g yarn``` on OS X / Linux). You should be able to execute ```yarn -V``` afterwards.
 
-1. Clone the project: ```git clone git@github.com:CS310-2017Jan/cpsc310-d0_XXX.git``` (where ```XXX``` is your GitHub id). You can also clone the repo by visiting your project in GitHub and getting the clone target by clicking on the green button on your project repository.
+1. Clone the project: ```git clone git@github.com:CS310-2017Jan/cpsc310d0_XXX.git``` (where ```XXX``` is your GitHub id). You can also clone the repo by visiting your project in GitHub and getting the clone target by clicking on the green button on your project repository.
 
 ## Project commands
 
