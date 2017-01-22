@@ -9,9 +9,7 @@
   "bugs": "",
   "keywords": [],
   "version": "0.0.1",
-  "devDependencies": {
-    "joi": "^10.0.6"
-  },
+  "devDependencies": {},
   "scripts": {
     "clean": "rm -rf ./node_modules/",
     "cleanwin": "rmdir node_modules /s /q & exit 0",
@@ -32,11 +30,14 @@
     "@types/request-promise-native": "^1.0.2",
     "@types/restify": "^2.0.35",
     "chai": "^3.5.0",
-    "istanbul": "^0.4.5",
+    "chai-as-promised": "^6.0.0",
+    "nyc": "^10.0.0",
+    "joi": "^10.0.6",
     "mocha": "^3.2.0",
-    "mochawesome": "^1.5.2",
+    "mochawesome": "^2.0.X",
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3",
+    "ts-node": "^2.0.0",
     "typescript": "^2.1.X"
   }
 }
