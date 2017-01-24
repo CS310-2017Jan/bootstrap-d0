@@ -16,9 +16,10 @@
     "configure": "yarn install; npm install istanbul",
     "configurewin": "yarn install",
     "build": "tsc",
-    "test": "mocha -c -R mochawesome",
-    "cover": "istanbul cover _mocha",
-    "coverwin": "istanbul cover node_modules/mocha/bin/_mocha"
+    "test": "mocha -c --timeout 10000 -R mochawesome",
+    "testcover": "mocha -c --timeout 10000",
+    "cover": "nyc -r json-summary --reporter=lcov yarn run testcover",
+    "coverwin": "nyc -r json-summary --reporter=lcov yarn run testcover"
   },
   "dependencies": {
     "@types/chai": "^3.4.34",
@@ -27,16 +28,13 @@
     "@types/mocha": "^2.2.33",
     "@types/node": "^6.0.52",
     "@types/parse5": "^2.2.34",
-    "@types/request-promise-native": "^1.0.2",
     "@types/restify": "^2.0.35",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "nyc": "^10.0.0",
-    "joi": "^10.0.6",
     "mocha": "^3.2.0",
     "mochawesome": "^2.0.X",
     "request": "^2.79.0",
-    "request-promise-native": "^1.0.3",
     "ts-node": "^2.0.0",
     "typescript": "^2.1.X"
   }
